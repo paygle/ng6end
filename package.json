@@ -1,0 +1,39 @@
+{
+  "name": "ng6end",
+  "version": "0.0.1",
+  "description": "use to ng6-demo back-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paygle/ng6end.git"
+  },
+  "keywords": [
+    "nodejs",
+    "demo"
+  ],
+  "author": "liuxp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paygle/ng6end/issues"
+  },
+  "homepage": "https://github.com/paygle/ng6end#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "http-errors": "^1.6.3",
+    "log4js": "^2.6.1",
+    "moment": "^2.22.1",
+    "morgan": "^1.9.0",
+    "nconf": "^0.10.0",
+    "redis": "^2.8.0",
+    "rxjs": "^6.1.0",
+    "sequelize": "^4.37.7",
+    "socket.io": "^2.1.1",
+    "sql": "^0.78.0"
+  }
+}
